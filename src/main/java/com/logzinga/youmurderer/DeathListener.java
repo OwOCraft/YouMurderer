@@ -10,7 +10,6 @@ public class DeathListener implements Listener {
     @EventHandler
     public void onDeath(PlayerDeathEvent e){
         Player player = e.getEntity().getPlayer();
-
-        e.setDeathMessage(player.getDisplayName() + "you might want a lawyer");
+        e.setDeathMessage(e.getDeathMessage() + " you might want a lawyer"); // i think this causes a loop
     }
 }
