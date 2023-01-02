@@ -1,0 +1,7 @@
+name: YouMurderer
+version: '${project.version}'
+main: com.logzinga.youmurderer.YouMurderer
+api-version: 1.19
+authors: [ logzinga ]
+description: Plugin that does some things when a Player murders someone
+website: http://owocraft.logzinga.com
