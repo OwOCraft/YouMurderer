@@ -12,4 +12,5 @@ public class DeathListener implements Listener {
         Player player = e.getEntity().getPlayer();
         e.setDeathMessage(e.getDeathMessage() + ", they might want a lawyer");
     }
+
 }
